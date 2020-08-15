@@ -1,0 +1,104 @@
+
+    body{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-013.jpg");
+    background-repeat: repeat-y;
+    background-size: 102.5%;
+    background-color:lightblue;
+    }
+
+    #title{
+        font-size: 75;
+        text-align: center;
+        color:cyan;
+    }
+
+
+    #content{
+        font-size: 40;
+        color:rgb(9, 241, 152);
+        text-align:center;
+
+        margin-left: 20;
+        margin-right: 20;
+
+        padding-left: 20;
+        padding-right: 20;
+        background-color: rgba(96, 17, 224, 0.479);
+    }
+
+    #sketch-holder{
+        position: fixed;
+        margin-bottom:2000px;
+    }
+
+    #internal-links{
+        color: white;
+        padding:15px 10px;
+        font-size:20;
+        list-style: none;
+    }
+
+    #sidebar{
+        position: fixed;
+        width:200px;
+        height:100%;
+        background:lightblue;
+        left:-200;
+        transition: all 500ms linear;
+    }
+
+    #sidebar.active{
+        left:0px
+    }
+
+    #sidebar li{
+        list-style: none;
+        padding: 15px 10px;
+        border-bottom: 1px solid rgba(47, 0, 255, 0.705);
+    }
+
+    #sidebar #sketch-holder{
+        position: absolute;
+        left:200px;
+    }
+
+    .h1{
+        text-align:center;
+        color:rgb(0, 238, 255);
+        background-color: rgb(9, 44, 241);
+    }
+
+    .details{
+        color:rgb(9, 241, 152);
+        background-color: rgba(96, 17, 224, 0.363);
+        font-size:30;
+        font-family:Arial, Helvetica, sans-serif;
+
+        margin-left: 50px;
+        margin-right: 50px;
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .images{
+        margin-left: 500;
+        margin-bottom: 20;
+    }
+
+    #sub-heading1{
+        margin-top: 300;
+    }
+
+    button{
+        color: green;
+        background-color: orange;
+    }
+
+    button:hover{
+        background-color: red;
+    }
+
+    button > div{
+        color: black;
+    }
